@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html long="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Bautkina</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="log_in" action="https://httpbin.org/post" enctype="multipart/form-data" method="post" class="form">
+        <h2>Форма обратной связи</h2>
+        <div class="fio_block">
+            <input type="text" name="fio" placeholder="Введите ФИО">
+        </div> 
+        <div class="email_block"><br>
+            <input type="text" name="email" placeholder="Введите email">
+        </div>
+        <div>
+            <h4>Как вы узнали о нас?</h4>
+            <input type="radio" name="info">От друзей<br>
+            <input type="radio" name="info">Из интернета
+        </div>
+        <div class="complain_block"><br>
+            <select size="1" style="width: 200px">
+                <option disabled>Выберите тип</option>
+                <option value="1">Предложение</option>
+                <option value="2">Жалоба</option>
+                </select>
+        </div>
+        <div class="comm_block">
+            <p>Комметарий<br>
+            <textarea></textarea></p>
+        </div>
+        <div class="file_block">
+            <input type="file" name="file">
+        </div>
+        <div class="personal_block">
+            <input type="checkbox">Даю своё согласие на обработку <br> персональных данных
+        </div>
+        <div class="block"><br>
+            <input type="submit" value="Отправить">
+        </div>
+        <br>
+    </form>
+</body>
+</html>

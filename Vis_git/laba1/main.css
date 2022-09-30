@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    
+    
+}
+
+header{
+    margin: 44px auto;
+    
+    display: -webkit-flex;
+    align-items: center;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.table_menu table tr td a{ 
+    align-items:  right;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.h{
+    color: #ff5c7d;
+}
+
+.skills{
+    color: white;
+    background-color: #222222;
+}
+
+footer{
+    background-color: #222222;
+   
+    height: auto;
+    color:#ff5c7d;
+    align-items: center;
+    margin: 44px auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.social{
+color:white;
+line-height: 5px;
+}
+.vk{
+    border-radius:100%;
+    margin-right: 10px;
+}
+.tg{
+    border-radius:100%;
+}
+
+.copy{
+    font-size: 16px;
+    color: white;
+}
+
